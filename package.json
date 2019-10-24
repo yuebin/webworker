@@ -1,0 +1,28 @@
+{
+  "name": "workutil",
+  "version": "1.0.0",
+  "description": " web worker util",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuebin/webworker.git"
+  },
+  "keywords": [
+    "webworker"
+  ],
+  "author": "yuebin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuebin/webworker/issues"
+  },
+  "homepage": "https://github.com/yuebin/webworker#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-jsdoc3": "^2.0.0",
+    "gulp-typescript": "^5.0.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
