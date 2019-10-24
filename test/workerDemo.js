@@ -1,7 +1,3 @@
-document.addEventListener('load',function(){
-    console.log('load');
-    console.log('load');
-});
 
 let uadWorker = new WorkerUtil();
 
