@@ -11,7 +11,8 @@ var UWorkerConfigEntity = /** @class */ (function () {
         if (config) {
             this.module = config.module || "common";
             this.jsPath = config.jsPath;
-            if (!this.jsPath) {
+            this.scope = config.scope || 'share';
+if (!this.jsPath) {
                 console.error("JS path is not null.");
             }
         }
